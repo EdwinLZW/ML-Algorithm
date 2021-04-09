@@ -17,12 +17,10 @@ class lassoAndElasticNet(object):
         self.x_data = data[1:, 2:]
         self.y_data = data[1:, 1]
         self.num = len(self.x_data)
-        # plt.scatter(self.x_data, self.y_data)
-        # plt.show()
 
     def Lasso(self):
         '''
-
+        
         :return:
         '''
         model = linear_model.LassoCV()
