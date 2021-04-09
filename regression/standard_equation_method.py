@@ -16,8 +16,6 @@ class standardEquationMethod(object):
         self.x_data = data[:, 0, np.newaxis]
         self.y_data = data[:, 1, np.newaxis]
         self.num = len(self.x_data)
-        # plt.scatter(self.x_data, self.y_data)
-        # plt.show()
 
     # 标准方程法
     def standard_equation_method(self):
